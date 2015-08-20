@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaxWidthLinearLayout">
+        <attr name="maxWidth" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CustomTextView">
+        <attr name="typeface" format="string">
+            <enum name="normal" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr name="textsize" format="string">
+            <enum name="small" value="1"/>
+            <enum name="medium" value="2"/>
+            <enum name="normal" value="3"/>
+            <enum name="increased" value="4"/>
+            <enum name="big" value="5"/>
+            <enum name="almost_huge" value="6"/>
+            <enum name="huge" value="7"/>
+        </attr>
+    </declare-styleable>
+</resources>

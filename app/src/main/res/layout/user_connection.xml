@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eeeeee"
+              android:clickable="false"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/b_rounded_normal"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <brach.stefan.techtest.layout.font.CustomTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            app:textsize="increased"
+            app:typeface="normal"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sb"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            app:onColor="#4ebb7f"/>
+
+    </LinearLayout>
+</LinearLayout>

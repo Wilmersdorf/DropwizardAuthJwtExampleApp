@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/base_color"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_logout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/b_menu_actionbar"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_home_white_48dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"/>
+
+        <brach.stefan.techtest.layout.font.CustomTextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            app:textsize="huge"
+            app:typeface="bold"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/ll_refresh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/b_menu_actionbar"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ic_cached_white_48dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:overScrollMode="never"
+        android:scrollbars="none"/>
+
+</LinearLayout>
