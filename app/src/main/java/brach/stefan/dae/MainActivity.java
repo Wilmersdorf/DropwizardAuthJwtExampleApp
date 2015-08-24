@@ -1,9 +1,7 @@
 package brach.stefan.dae;
 
 import android.app.ProgressDialog;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.Toast;
@@ -32,14 +30,11 @@ public class MainActivity extends AppCompatActivity {
     // queue for threads
     private static final ExecutorService executor = Executors.newFixedThreadPool(1);
     // start url
-    private final String startUrl = "http://ec2-52-28-166-253.eu-central-1.compute.amazonaws.com:8080";
+    private final String startUrl = "http://ec2-xx-x-xxx-xxx.eu-central-1.compute.amazonaws.com:8080";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
-        editor.putString("abc", null);
-        editor.commit();
         if (TextUtils.isEmpty(PreferencesHelper.getUrl(this))) {
             PreferencesHelper.saveUrl(this, startUrl);
         }
