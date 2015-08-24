@@ -21,12 +21,12 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-        <brach.stefan.techtest.layout.font.CustomTextView
+        <brach.stefan.dae.layout.font.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:singleLine="true"
-            android:text="TechTest"
+            android:text="@string/app_name"
             android:textColor="#FFFFFF"
             app:textsize="huge"
             app:typeface="bold"/>
@@ -38,7 +38,7 @@
 
     </LinearLayout>
 
-    <brach.stefan.techtest.layout.MaxWidthLinearLayout
+    <brach.stefan.dae.layout.MaxWidthLinearLayout
         android:id="@+id/ll_main"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                 android:src="@drawable/ic_email_white_24dp"
                 android:tint="@color/blue_2_normal"/>
 
-            <brach.stefan.techtest.layout.font.CustomEditText
+            <brach.stefan.dae.layout.font.CustomEditText
                 android:id="@+id/et_email"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                 android:src="@drawable/ic_https_white_24dp"
                 android:tint="@color/blue_2_normal"/>
 
-            <brach.stefan.techtest.layout.font.CustomEditText
+            <brach.stefan.dae.layout.font.CustomEditText
                 android:id="@+id/et_password"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
                 android:src="@drawable/ic_language_white_24dp"
                 android:tint="@color/blue_2_normal"/>
 
-            <brach.stefan.techtest.layout.font.CustomEditText
+            <brach.stefan.dae.layout.font.CustomEditText
                 android:id="@+id/et_url"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -138,9 +138,9 @@
                 app:textsize="normal"
                 app:typeface="normal"/>
         </LinearLayout>
-    </brach.stefan.techtest.layout.MaxWidthLinearLayout>
+    </brach.stefan.dae.layout.MaxWidthLinearLayout>
 
-    <brach.stefan.techtest.layout.MaxWidthLinearLayout
+    <brach.stefan.dae.layout.MaxWidthLinearLayout
         android:id="@+id/ll_log_in"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -160,14 +160,14 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-        <brach.stefan.techtest.layout.font.CustomButton
+        <brach.stefan.dae.layout.font.CustomButton
             android:id="@+id/btn_log_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:background="@null"
             android:clickable="false"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="#FFFFFF"
             app:textsize="increased"
             app:typeface="bold"/>
@@ -177,9 +177,9 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-    </brach.stefan.techtest.layout.MaxWidthLinearLayout>
+    </brach.stefan.dae.layout.MaxWidthLinearLayout>
 
-    <brach.stefan.techtest.layout.MaxWidthLinearLayout
+    <brach.stefan.dae.layout.MaxWidthLinearLayout
         android:id="@+id/ll_sign_up"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -199,14 +199,14 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-        <brach.stefan.techtest.layout.font.CustomButton
+        <brach.stefan.dae.layout.font.CustomButton
             android:id="@+id/btn_sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:background="@null"
             android:clickable="false"
-            android:text="Signup"
+            android:text="@string/signup"
             android:textColor="#FFFFFF"
             app:textsize="increased"
             app:typeface="bold"/>
@@ -216,5 +216,5 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-    </brach.stefan.techtest.layout.MaxWidthLinearLayout>
+    </brach.stefan.dae.layout.MaxWidthLinearLayout>
 </RelativeLayout>

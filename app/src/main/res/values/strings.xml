@@ -1,6 +1,22 @@
 <resources>
-    <string name="app_name">TechTest</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Dropwizard</string>
     <string name="action_settings">Settings</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="connection_error">Connection Failure.</string>
+    <string name="url_not_valid">Url is not valid.</string>
+    <string name="unable_to_signup">Unable to signup.</string>
+    <string name="unable_to_login">Unable to login.</string>
+    <string name="you_are_now_connected_to">You are now connected to</string>
+    <string name="you_are_no_longer_connected_to">You are no longer connected to</string>
+    <string name="refreshed_connections">Refreshed connections.</string>
+    <string name="unable_to_refresh_connections">Unable to refresh connections.</string>
+    <string name="unable_to_connect_to">Unable to connect to</string>
+    <string name="SIGNUP_FAIL_USER_ALREADY_EXISTS">User already exists.</string>
+    <string name="SIGNUP_FAIL_NO_EMAIL">Email cannot be empty.</string>
+    <string name="SIGNUP_FAIL_NO_PASSWORD">Password cannot be empty.</string>
+    <string name="SIGNUP_FAIL_INVALID_EMAIL">Email is not valid.</string>
+    <string name="LOGIN_FAIL_NO_EMAIL">Email cannot be empty.</string>
+    <string name="LOGIN_FAIL_NO_PASSWORD">Password cannot be empty.</string>
+    <string name="LOGIN_FAIL_USER_NOT_FOUND_OR_WRONG_PASSWORD">User not found or wrong password.</string>
 </resources>

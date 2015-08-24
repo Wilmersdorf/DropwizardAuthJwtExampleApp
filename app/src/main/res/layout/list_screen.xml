@@ -39,7 +39,7 @@
             android:layout_height="10dp"
             android:layout_weight="1"/>
 
-        <brach.stefan.techtest.layout.font.CustomTextView
+        <brach.stefan.dae.layout.font.CustomTextView
             android:id="@+id/tv_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
